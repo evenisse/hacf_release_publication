@@ -2,7 +2,13 @@
     "name": "hacf",
     "description": "hacf",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-credentials": "0.2.1",
+        "node-red-contrib-home-assistant-websocket": "0.27.9",
+        "node-red-contrib-string": "1.0.0",
+        "node-red-contrib-telegrambot": "8.9.6",
+        "node-red-node-email": "1.8.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
